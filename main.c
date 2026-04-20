@@ -151,7 +151,6 @@ void measure_radix_sort(int* mass, int size) {
 
     double time_sec = (double)(end - start) / CLOCKS_PER_SEC;
 
-    // Память = output массив (size * sizeof(int)) + count массив (40 байт)
     size_t memory_bytes = size * sizeof(int) + 40;
 
     printf("| %-10d | %-15.8f | %-15zu |\n", size, time_sec, memory_bytes);
