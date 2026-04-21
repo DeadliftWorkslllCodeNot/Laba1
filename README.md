@@ -39,6 +39,8 @@ bool find_el(int* mass, int size, int num) {
     return false;
 }
 
+---
+
 ## 2. Поиск второго максимального элемента массива
 Алгоритмическая сложность: O(n)
 
